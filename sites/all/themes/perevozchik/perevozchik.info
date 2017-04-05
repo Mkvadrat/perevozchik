@@ -1,0 +1,30 @@
+﻿name = perevozchik
+screenshot = screenshot.png
+description = тема для сайта perevozchik
+version = 1.0
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = highslide/highslide.css
+
+
+scripts[] = highslide/highslide-with-gallery.js
+
+regions[top_script] = скрипты
+regions[contact_top] = Верх контакты
+regions[top_menu] = верхнее меню
+regions[shapka] = Шапка
+regions[banners] = 3 баннера
+regions[column_razdely] = разделы сайта
+
+regions[banners_bottom] = 3 баннера низ
+regions[column_razdely_bottom] = разделы сайта низ
+
+regions[column_center] = Содержание сайта
+regions[footer] =низ
+regions[bottom_logo] =низ лого
+regions[bottom_menu] =низ меню
+
+regions[bottom_contact] =низ контакты
